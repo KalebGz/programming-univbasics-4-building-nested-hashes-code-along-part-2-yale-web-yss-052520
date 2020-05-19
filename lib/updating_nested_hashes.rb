@@ -54,7 +54,11 @@ def add_characters
       }
    }
   
-  epic_tragedy[]
+  epic_tragedy[:additional_characters]
+  epic_tragedy[:additional_characters] = [
+    {name: },
+    {}
+    
    # Write code below that does the following programmatically:
    #
    # - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
